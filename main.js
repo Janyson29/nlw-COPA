@@ -32,7 +32,7 @@ document.querySelector("#cards").innerHTML =
     "fase de grupos",
     "20/11",
     "Domingo",
-    createGame("catar", "13:00", "equador")
+    createGame("catar", "0 X 2", "equador")
   ) +
   createCard(
     "fase de grupos",
