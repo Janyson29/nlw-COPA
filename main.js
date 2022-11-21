@@ -40,7 +40,7 @@ document.querySelector("#cards").innerHTML =
     "segunda",
     createGame("inglaterra", "6 X 2", "irã") +
       createGame("senegal", "0 X 2", "holanda") +
-      createGame("usa", "16:00", "gales")
+      createGame("usa", "1 X 1", "gales")
   ) +
   createCard(
     "fase de grupos",
