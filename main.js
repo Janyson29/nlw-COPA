@@ -73,19 +73,19 @@ document.querySelector("#cards").innerHTML =
     "fase de grupos",
     "25/11",
     "sexta",
-    createGame("0", "07:00", "2") +
-      createGame("1", "10:00", "3") +
-      createGame("1", "13:00", "1") +
-      createGame("0", "16:00", "0")
+    createGame("gales", "0 X 2", "irã") +
+      createGame("catar", "1 X 3", "senegal") +
+      createGame("holanda", "1 X 1", "equador") +
+      createGame("inglaterra", "0 X 0", "usa")
   ) +
   createCard(
     "fase de grupos",
     "26/11",
     "sábado",
-    createGame("0", "07:00", "1") +
-      createGame("polônia", "10:00", "arábia") +
-      createGame("frança", "13:00", "dinamarca") +
-      createGame("argentina", "16:00", "méxico")
+    createGame("tunísia", "0 X 1", "austrália") +
+      createGame("polônia", "2 X 0", "arábia") +
+      createGame("frança", "2 X 1", "dinamarca") +
+      createGame("argentina", "2 X 0", "méxico")
   ) +
   createCard(
     "fase de grupos",
@@ -145,43 +145,37 @@ document.querySelector("#cards").innerHTML =
     "oitavas de final",
     "03/12",
     "sábado",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null") 
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "oitavas de final",
     "04/12",
     "domingo",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null")
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "oitavas de final",
     "05/12",
     "segunda",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null")
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "oitavas de final",
     "06/12",
     "terça",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null")
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "quartas de final",
     "09/12",
     "sexta",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null")
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "quartas de final",
     "10/12",
     "sábado",
-    createGame("null", "12:00", "null") +
-    createGame("null", "16:00", "null")
+    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
   ) +
   createCard(
     "semifinal",
@@ -201,9 +195,4 @@ document.querySelector("#cards").innerHTML =
     "sábado",
     createGame("null", "12:00", "null")
   ) +
-  createCard(
-    "final",
-    "18/12",
-    "domingo",
-    createGame("null", "12:00", "null") 
-  )
+  createCard("final", "18/12", "domingo", createGame("null", "12:00", "null"))
