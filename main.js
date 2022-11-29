@@ -100,17 +100,17 @@ document.querySelector("#cards").innerHTML =
     "fase de grupos",
     "28/11",
     "segunda",
-    createGame("camarões", "07:00", "sérvia") +
-      createGame("coreia", "10:00", "gana") +
-      createGame("brasil", "13:00", "suíça") +
-      createGame("portugal", "16:00", "uruguai")
+    createGame("camarões", "3 X 3", "sérvia") +
+      createGame("coreia", "2 X 3", "gana") +
+      createGame("brasil", "1 X 0", "suíça") +
+      createGame("portugal", "2 X 0", "uruguai")
   ) +
   createCard(
     "fase de grupos",
     "29/11",
     "terça",
-    createGame("equador", "12:00", "senegal") +
-      createGame("holanda", "12:00", "catar") +
+    createGame("equador", "1 X 2", "senegal") +
+      createGame("holanda", "2 X 0", "catar") +
       createGame("irã", "16:00", "usa") +
       createGame("gales", "16:00", "inglaterra")
   ) +
