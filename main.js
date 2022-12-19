@@ -157,19 +157,19 @@ document.querySelector("#cards").innerHTML =
     "oitavas de final",
     "05/12",
     "segunda",
-    createGame("japão", "1(1) X 1(3)", "croácia") + createGame("brasil", "4 X 1", "corea")
+    createGame("japão", "1 X 1", "croácia") + createGame("brasil", "4 X 1", "coreia")
   ) +
   createCard(
     "oitavas de final",
     "06/12",
     "terça",
-    createGame("marrocos", "0(3) X 0(0)", "espanha") + createGame("portugal", "6 X 1", "suíça")
+    createGame("marrocos", "0 X 0", "espanha") + createGame("portugal", "6 X 1", "suíça")
   ) +
   createCard(
     "quartas de final",
     "09/12",
     "sexta",
-    createGame("brasil", "1(2) X 1(4)", "croácia") + createGame("holanda", "2(3) X 2(4)", "argentina")
+    createGame("brasil", "1 X 1", "croácia") + createGame("holanda", "2 X 2", "argentina")
   ) +
   createCard(
     "quartas de final",
@@ -195,4 +195,4 @@ document.querySelector("#cards").innerHTML =
     "sábado",
     createGame("croácia", "2 X 1", "marrocos")
   ) +
-  createCard("final", "18/12", "domingo", createGame("argentina", "3(4) X 3(2)", "frança"))
+  createCard("final", "18/12", "domingo", createGame("argentina", "3 X 3", "frança"))
