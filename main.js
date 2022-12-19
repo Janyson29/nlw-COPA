@@ -118,81 +118,81 @@ document.querySelector("#cards").innerHTML =
     "fase de grupos",
     "30/11",
     "quarta",
-    createGame("tunísia", "12:00", "frança") +
-      createGame("austrália", "12:00", "dinamarca") +
-      createGame("polônia", "16:00", "argentina") +
-      createGame("arábia", "16:00", "méxico")
+    createGame("tunísia", "1 X 0", "frança") +
+      createGame("austrália", "1 X 0", "dinamarca") +
+      createGame("polônia", "0 X 2", "argentina") +
+      createGame("arábia", "1 X 2", "méxico")
   ) +
   createCard(
     "fase de grupos",
     "01/12",
     "quinta",
-    createGame("croácia", "12:00", "bélgica") +
-      createGame("canadá", "12:00", "marrocos") +
-      createGame("japão", "16:00", "espanha") +
-      createGame("costa", "16:00", "alemanha")
+    createGame("croácia", "0 X 0", "bélgica") +
+      createGame("canadá", "1 X 2", "marrocos") +
+      createGame("japão", "2 X 1", "espanha") +
+      createGame("costa", "2 X 4", "alemanha")
   ) +
   createCard(
     "fase de grupos",
     "02/12",
     "sexta",
-    createGame("coreia", "12:00", "portugal") +
-      createGame("gana", "12:00", "uruguai") +
-      createGame("sérvia", "16:00", "suíça") +
-      createGame("camarões", "16:00", "brasil")
+    createGame("coreia", "2 X 1", "portugal") +
+      createGame("gana", "0 X 2", "uruguai") +
+      createGame("sérvia", "2 X 3", "suíça") +
+      createGame("camarões", "1 X 0", "brasil")
   ) +
   createCard(
     "oitavas de final",
     "03/12",
     "sábado",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("holanda", "3 x 1", "usa") + createGame("argentina", "2 x 1", "austrália")
   ) +
   createCard(
     "oitavas de final",
     "04/12",
     "domingo",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("frança", "3 X 1", "polônia") + createGame("inglaterra", "3 X 0", "senegal")
   ) +
   createCard(
     "oitavas de final",
     "05/12",
     "segunda",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("japão", "1(1) X 1(3)", "croácia") + createGame("brasil", "4 X 1", "corea")
   ) +
   createCard(
     "oitavas de final",
     "06/12",
     "terça",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("marrocos", "0(3) X 0(0)", "espanha") + createGame("portugal", "6 X 1", "suíça")
   ) +
   createCard(
     "quartas de final",
     "09/12",
     "sexta",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("brasil", "1(2) X 1(4)", "croácia") + createGame("holanda", "2(3) X 2(4)", "argentina")
   ) +
   createCard(
     "quartas de final",
     "10/12",
     "sábado",
-    createGame("null", "12:00", "null") + createGame("null", "16:00", "null")
+    createGame("marrocos", "1 X 0", "portugal") + createGame("inglaterra", "1 X 2", "frança")
   ) +
   createCard(
     "semifinal",
     "13/12",
     "terça",
-    createGame("null", "16:00", "null")
+    createGame("argentina", "3 X 0", "croácia")
   ) +
   createCard(
     "semifinal",
     "14/12",
     "quarta",
-    createGame("null", "16:00", "null")
+    createGame("frança", "2 X 0", "marrocos")
   ) +
   createCard(
     "disputa do terceiro lugar",
     "17/12",
     "sábado",
-    createGame("null", "12:00", "null")
+    createGame("croácia", "2 X 1", "marrocos")
   ) +
-  createCard("final", "18/12", "domingo", createGame("null", "12:00", "null"))
+  createCard("final", "18/12", "domingo", createGame("argentina", "3(4) X 3(2)", "frança"))
